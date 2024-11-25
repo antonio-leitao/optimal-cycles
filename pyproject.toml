@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "recycle"
+version = "0.1.0"
+description = ""
+authors = ["Antonio Leitao <leitaoto@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gudhi = "^3.10.1"
+pulp = "^2.9.0"
+ripser = "^0.6.10"
+gurobipy = "^11.0.3"
+line-profiler = "^4.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
