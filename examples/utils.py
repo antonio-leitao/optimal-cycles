@@ -104,8 +104,8 @@ def plot_diagrams(
         # plot persistence pairs
         ax.scatter(dgm[:, 0], dgm[:, 1], size,color=color, label=label, edgecolor="none")
 
-        ax.set_xlabel(xlabel)
-        ax.set_ylabel(ylabel)
+        ax.set_xlabel(xlabel,fontsize=7)
+        ax.set_ylabel(ylabel,fontsize=7)
 
     ax.set_xlim([x_down, x_up])
     ax.set_ylim([y_down, y_up])
